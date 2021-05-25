@@ -1,0 +1,7 @@
+echo "# TerminalTerminalGit-Bash." >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin http://localhost:8888/notebooks/Amazon%20Kindle.ipynb#
+git push -u origin main
